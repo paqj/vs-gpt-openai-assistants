@@ -22,6 +22,12 @@ st.markdown(
 )
 
 with st.sidebar:
+    st.markdown(
+        """
+        [GitHub Repository](https://github.com/paqj/vs-gpt-openai-assistants)
+        """,
+    )
+
     user_api_key = st.text_input("Please enter your API key on app page")
 
     if user_api_key:
